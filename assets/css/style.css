@@ -25,7 +25,6 @@ header {
 }
 
 .header-name {
-    /* display: inline; */
     background: #4aaaa5;
     color: white;
     font-weight: 700;
@@ -42,7 +41,7 @@ nav {
 
 .heading-link {
     color: gray;
-    padding: 0 1rem;
+    padding: 1rem;
     margin: 1rem 0;
     text-decoration: none;
     transition: color .75s;
@@ -52,6 +51,7 @@ nav {
 .heading-link:hover {
     background-color: #777;
     color: #bbb;
+    /* padding: 1rem; */
 }
 
 #portfolio {
@@ -193,7 +193,19 @@ footer {
     }
 
     .folio {
-        width: 95%;
-        height: 
+        width: 100%;
+        height: auto
     }
+
+    footer {
+        position: static;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
 }
